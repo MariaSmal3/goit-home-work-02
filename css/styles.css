@@ -3,10 +3,11 @@
     --accent-color: #2E2F42;
     --cloud: #F4F4FD;
     --bg-white: #FFFFFF;
-    --color-text:  #434455;
+    --color:  #434455;
     --color: #404bbf;
+    --background-color: #FFFFFF;
 .body {
-    font-family: "Roboto",sans-serif;
+    font-family:"Roboto",sans-serif;
     font-style: normal;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
@@ -14,11 +15,11 @@ color: #434455;
       }
       .link-logo {
         font-family:"Raleway",sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+        font-weight:800;
+        font-size:18px;
+        line-height:1.17;
+        letter-spacing:0.03em;
+        text-transform:uppercase;
         color: #4D5AE5;
             }
             .span {
@@ -31,17 +32,17 @@ color: #434455;
         color: var(--accent-color);
                  }
                  .link {
-        text-decoration: none;
+        text-decoration:none;
     }
                  .nav {
-                    font-weight: 500;
+                    font-weight:500;
                     font-size: 16px;
                     line-height: 24px;
                     letter-spacing: 0.02em;
                     list-style-type: none;
                     padding: 0%;
                     text-decoration: none;
-                    color: var(--accent-color);
+                    color: #2E2F42;
                             }
                             .list {
                                 list-style: none;
@@ -116,12 +117,17 @@ color: #434455;
                             color: var(--cloud);
                                         }
                         .link header-logo {
-                            font-weight: 800;
-                            font-size: 18px;
-                            line-height: 5.57;
-                            letter-spacing: 0.03em;
-                            color: var(--color-web);
+                            font-weight:800;
+                            font-size:18px;
+                            line-height:1.17;
+                            letter-spacing:0.03em;
+                            text-transform: uppercase;
+                            color: #4D5AE5);
+                            text-decoration: none;
                                         }
+                                    .link{
+                                    .link-style:none;
+                                }
                          .footer-logo-light {
                             font-weight: 800;
                             font-size: 18px;
@@ -158,13 +164,16 @@ color: #434455;
                         .nav {  
                          font-weight:500;
                          font-size: 16px;
-                         line-height: 24px;
-                         letter-spacing: 0.02em;
+                         line-height:1.5;
+                         letter-spacing:0.02em;
                          list-style-type: none;
                          padding: 0%;
                          text-decoration: none;
-                         color: var(--accent-color);
+                         color: #2E2F42;
                             }
+                            .link {
+                                .link-style:none;
+                                }
                         .header-address {
                         font-weight: 400;
                         font-size: 16px;
