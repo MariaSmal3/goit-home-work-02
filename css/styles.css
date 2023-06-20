@@ -169,7 +169,8 @@
                 }
                  /* Our-team-section */
                 .our-team {
-                    background-color: #F4F4FD;}
+                    background-color: #F4F4FD;
+                }
                 .our-team-list {
                 }
                 .our-team-item {
@@ -217,7 +218,7 @@
                     letter-spacing: 0.02em;
                     color: var(--main-text-color);
                        }
-                /**
+                     /**
                       |============================
                       | Footer content
                       |============================
